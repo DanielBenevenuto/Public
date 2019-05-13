@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    background-color: #4885ed !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover
+{
+    text-decoration: none !important;
+}
+
+a:hover
+{
+    color:#4885ed !important;
+}
+
+th,td
+{
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    text-shadow: 1px 1px #222;
+}
+
+.datafont
+{
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+}
+
+.img
+{
+    width: 400px;
+    height: auto !important;
+}
+
+.bg1
+{
+    background-color: 	#343a40;
+    text-shadow: 1px 1px #222;
+}
+
+.blue
+{
+    color:#4885ed !important;
+    text-shadow: 1px 1px black;
+}
+
+.zoom{
+    transition: transform .2s;/* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
